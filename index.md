@@ -35,6 +35,7 @@ title: 구성 초등학교 소프트웨어 교육
 ### 학습 내용
 
 - [WHY: 컴퓨터 교육]() : 준비 중
+    - [네번째 패러다임]()
     - [컴퓨팅 사고(Computational Thinking)](): 준비 중
     - [과학 컴퓨팅(Scientific Computing)](): 준비 중
     - [소프트웨어 교육 실습환경 직접 구축 DIY]() : 준비중
@@ -44,6 +45,18 @@ title: 구성 초등학교 소프트웨어 교육
 - [HOW: 컴퓨터 교육]() : 준비 중
     - [소프트웨어 카펜트리(Software Carpentry)](): 준비 중
     - [공개 통계학 개론(OpenIntro Statistics)](): 준비 중
+
+### 언론 기사 
+
+- 한국통계진흥원에서 발간 [통계의 창 (2015년 여름호)](http://sti.kostat.go.kr/)
+    - 통계교육원 > 열린교육방 > e-book 게시판
+    - [미래인재 데이터과학지: 교육사례중심](./xwMOOC.pdf)
+    - [전체 다운로드(100MB)](http://sti.kostat.go.kr/coresti/site/board/fileDownLoad.do?file_name=1&nots_seq=2046)
+
+- [강서양천신문](http://www.gynews.net/) '15년 9월
+    - [기고, 컴퓨터 사고력과 소프트웨어 교육](http://www.gynews.net/bbs/bbs.asp?exe=view&group_name=104&section=7&category=0&idx_num=19311&page=1&search_category=&search_word=&order_c=bd_idx_num&order_da=desc)
+    - [기고, 글을 쓰는 것은 소프트웨어 개발이다!](http://www.gynews.net/bbs/bbs.asp?exe=view&group_name=104&section=7&category=0&idx_num=19140&page=1&search_category=&search_word=&order_c=bd_idx_num&order_da=desc)
+ 
 
 
 ### 참고자료
