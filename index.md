@@ -34,17 +34,17 @@ title: 구성 초등학교 소프트웨어 교육
 
 ### 학습 내용
 
-- [WHY: 컴퓨터 교육]() : 준비 중
+- WHY: 컴퓨터 교육
     - [네번째 패러다임]()
-    - [컴퓨팅 사고(Computational Thinking)](): 준비 중
-    - [과학 컴퓨팅(Scientific Computing)](): 준비 중
-    - [소프트웨어 교육 실습환경 직접 구축 DIY]() : 준비중
-- [WHAT: 컴퓨팅 언어와 콘텐츠]() : 준비 중
-    - [언플러그드](): 준비 중
+    - [컴퓨팅 사고(Computational Thinking)](ct.html)
+    - 과학 컴퓨팅(Scientific Computing)
+    - 소프트웨어 교육 실습환경 직접 구축 DIY
+- WHAT: 컴퓨팅 언어와 콘텐츠
+    - [언플러그드](ct-unplugged.html)
     - [파이썬](): 준비 중
-- [HOW: 컴퓨터 교육]() : 준비 중
-    - [소프트웨어 카펜트리(Software Carpentry)](): 준비 중
-    - [공개 통계학 개론(OpenIntro Statistics)](): 준비 중
+- HOW: 컴퓨터 교육
+    - 소프트웨어 카펜트리(Software Carpentry)
+    - 공개 통계학 개론(OpenIntro Statistics)
 
 ### 언론 기사 
 
@@ -57,7 +57,6 @@ title: 구성 초등학교 소프트웨어 교육
     - [기고, 컴퓨터 사고력과 소프트웨어 교육](http://www.gynews.net/bbs/bbs.asp?exe=view&group_name=104&section=7&category=0&idx_num=19311&page=1&search_category=&search_word=&order_c=bd_idx_num&order_da=desc)
     - [기고, 글을 쓰는 것은 소프트웨어 개발이다!](http://www.gynews.net/bbs/bbs.asp?exe=view&group_name=104&section=7&category=0&idx_num=19140&page=1&search_category=&search_word=&order_c=bd_idx_num&order_da=desc)
  
-
 
 ### 참고자료
 
