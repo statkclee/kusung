@@ -35,7 +35,7 @@ title: 구성 초등학교 소프트웨어 교육
 ### 학습 내용
 
 - WHY: 컴퓨터 교육
-    - [네번째 패러다임]()
+    - [네번째 패러다임](ct-paradigm.html)
     - [컴퓨팅 사고(Computational Thinking)](ct.html)
     - 과학 컴퓨팅(Scientific Computing)
     - 소프트웨어 교육 실습환경 직접 구축 DIY
