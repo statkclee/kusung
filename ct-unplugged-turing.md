@@ -28,4 +28,32 @@ minutes: 10
 
 ### 2. 리캡챠(ReCAPTCHA)
 
+[CAPTCHA](https://ko.wikipedia.org/wiki/CAPTCHA) 시스템은 흔히 웹사이트 회원가입을 할 때 자동가입방지 목적으로 많이 봐와서 익숙할 것이다. 사람이 기계를 사람인지 판별하는 튜링테스트와는 반대로 기계가 사람인지 판별하는 때문에 역튜링테스트(Reverse Turing Test)라고 부른다. 방식은 텍스트와 이미지를 일그러뜨려 변형한 후 인식을 요청하는 방식으로 사람은 쉽게 알 수 있지만, 컴퓨터는 인식률이 떨어져 사람인지 컴퓨터 프로그램인지를 판별할 수 있다.
+
+리캡챠(reCAPTCHA, revision of Completely Automated Public Turing test to tell Computers and Humans Apart)는 카네기 멜론 대학교의 [Luis von Ahn](https://en.wikipedia.org/wiki/Luis_von_Ahn)가 주도되어 개발한 CAPTCHA 시스템이다. [CAPTCHA](https://ko.wikipedia.org/wiki/CAPTCHA)의 인터페이스와 비슷하게, reCAPTCHA는 사용자에게 화면에 왜곡된 단어 이미지를 보여준 뒤, 보이는 대로 단어를 입력하라고 한다. 화면에 나타나는 두 개의 단어는 접근이 제한된 구역에 봇이 접근을 시도하는 것으로부터 보호할 뿐만 아니라 실제 책의 내용을 디지털화하는 데 도움을 준다. 
+
+[Luis von Ahn](https://en.wikipedia.org/wiki/Luis_von_Ahn)은 과테말라 출신으로 2009년 reCAPTCHA를 구글에 매각하고 [Duolingo](https://www.duolingo.com/)를 창업하기도 했다. 컴퓨터가 텍스트를 해독하데 한계가 다른 영역 발전에 큰 저해요인이 될 것으로 판단해서 인간 컴퓨터(Human Computer)를 크라우드 소싱(Crowd Sourcing) 방식으로 이용하기로 해서 reCAPTCHA를 개발했다. reCAPTCHA는 기계가 사람인지를 판별할 수 있을 뿐만 아니라, 다음 세대를 위한 전세계 책을 디지털화하는데 도움도 주고 있다. 
+
+
 [ReCAPTCHA - Humans are computers, too!](https://canvas.instructure.com/courses/884561/pages/recaptcha-humans-are-computers-too)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
