@@ -38,58 +38,56 @@
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
           <h1 class="title">구성 초등학교 소프트웨어 교육</h1>
-          <h2 class="subtitle">컴퓨터 과학 언플러그드(Computer Science Unplugged)</h2>
+          <h2 class="subtitle">컴퓨터 과학 언플러그드(Computer Science Unplugged)- 인터넷</h2>
+<p>출처: 라즈베리파이 재단 공식 웹사이트 <a href="https://www.raspberrypi.org/learning/networking-lessons/">RASPBERRY PI NETWORKING</a> 기반으로 학습을 시작한다.</p>
 <div id="학습-목표" class="objectives panel panel-warning">
 <div class="panel-heading">
 <h3><span class="glyphicon glyphicon-certificate"></span>학습 목표</h3>
 </div>
 <div class="panel-body">
 <ul>
-<li>컴퓨터 과학 개념과 실제 관계를 이해한다.</li>
+<li>두개 이상의 라즈베리 파이를 네트워크를 통해 연결해 통신하는 방법</li>
+<li>한 라즈베리 파이 프로그램을 작성해서 또 다른 라즈베리 파이로 메시지를 전송하는 방법</li>
+<li>네트워크를 통해서 하드웨어를 제어하는 방법</li>
+<li>네트워크 설정하고 서버 구축하는 방법</li>
+<li>기초 네트워킹 개념
+<ul>
+<li>IP 주소 (IP address)</li>
+<li>서버와 클라이언트 (Servers and Clients)</li>
+<li>동적 호스트 구성 프로토콜(Dynamic Host Configuration Protocol, DHCP)</li>
+<li>도메인 네임 시스템 (Domain Name System, DNS)</li>
+</ul></li>
 </ul>
 </div>
 </div>
+<h3 id="라즈베리-파이를-통한-네트워킹-이해-및-실습"><a href="http://statkclee.github.io/python-networking/">라즈베리 파이를 통한 네트워킹 이해 및 실습</a></h3>
+<ol style="list-style-type: decimal">
+<li><a href="http://statkclee.github.io/python-networking/01-sending-messages.html">네트워크를 통해 메시지 전송</a>
 <ul>
-<li>제1부 정보를 나타내는 원재료—데이터
-<ul>
-<li>점의 개수를 세다—이진수</li>
-<li><a href="ct-unplugged-images.html">숫자로 색깔 표현하기—이미지 표현</a></li>
-<li>다시 말할 수 있어요!—텍스트 압축</li>
-<li>카드 뒤집기 마술—오류 탐지 및 수정</li>
-<li>질문 20개—정보 이론</li>
+<li>사전에 동영상을 학습하고 수업에 참석한다.</li>
 </ul></li>
-<li>제2부 컴퓨터를 동작시키기—알고리즘
+<li><a href="http://statkclee.github.io/python-networking/02-controlling-hardware.html">네트워크로 하드웨어 제어</a></li>
+<li><a href="http://statkclee.github.io/python-networking/03-dhcp.html">동적 호스트 구성 프로토콜</a></li>
+<li><a href="http://statkclee.github.io/python-networking/04-dns.html">도메인 네임 시스템</a></li>
+</ol>
+<div id="필요한-준비물" class="callout panel panel-info">
+<div class="panel-heading">
+<h3><span class="glyphicon glyphicon-pushpin"></span>필요한 준비물</h3>
+</div>
+<div class="panel-body">
+<p>라즈베리 파이를 가진 학생 각각 혹은 짝을 지어 수행하는 것을 권장한다. 각 라즈베리 파이가 첫번째 학습에서 다른 학생 라즈베리 파이에 &gt; 연결되어야 되어서 짝수 라즈베리 파이가 필요하다. 각 학생 혹은 짝을 이룬 학생은 다음 &gt; 기구물에 접근할 수 있어야 한다.</p>
 <ul>
-<li><a href="ct-unplugged-search.html">전함 (battleship)—검색 알고리즘</a></li>
-<li>가장 가벼운 것과 가장 무것운 것—정렬 알고리즘</li>
-<li><a href="ct-unplugged-mapreduce.html">시간내 일을 마치기—정렬 네트워크(Sorting Network)</a></li>
-<li>진흙도시 프로젝트—최소생성나무(Minimal Spanning Trees)</li>
-<li>오렌지 게임—네트워크 라우팅(Routing)과 교착상태(Deadlock)</li>
-<li><a href="ct-unplugged-internet.html">돌명판(Tablets of Stone) — 네트워크 통신 프로토콜</a></li>
-</ul></li>
-<li>제3부 컴퓨터에 무엇을 수행할지 지시하기—절차의 표현
+<li>다음 환경 설정이 된 라즈베리 파이
 <ul>
-<li>보물 찾기—유한상태 오토마타</li>
-<li>진군 명령—프로그래밍 언어(Programming Languages)</li>
-</ul></li>
-<li>제4부 정말 어려운 문제 — 난해성(Intractability)
-<ul>
-<li>가난한 지도 제작자 — 그래프 색칠하기</li>
-<li>관광 마을 — 지배 집합 (Dominating Sets)</li>
-<li>얼음길 — 스타이너 트리(Steiner trees)</li>
-</ul></li>
-<li>제5부 비밀 공유와 범죄와 전쟁 —암호화(Cryptography)
-<ul>
-<li>비밀공유 — 정보 은닉 프로토콜</li>
-<li>페루 동전 던지기 — 암호화 프로토콜</li>
-<li>키드 크립토(Kid Krypto) — 공개키 암호화</li>
-</ul></li>
-<li>제6부 사람 냄새나는 컴퓨터—컴퓨터와 상호 작용
-<ul>
-<li><a href="ct-hci.html">쵸코릿 공장 — 휴먼 인터페이스 설계</a></li>
-<li><a href="ct-unplugged-turing.html">컴퓨터와 대화 — 튜링 테스트</a></li>
+<li>라즈비언 운영체제가 탑재된 최신 NOOBS SD 카드</li>
+<li><code>network.py</code>와 <code>thing-client.py</code> 파이썬 파일을 SD 카드에 &gt; 복사한다.</li>
+<li>키보드, 마우스, 모니터(혹은 TV)</li>
+<li>두 라즈베리 파이를 연결하는 네트워크 케이블</li>
+<li>연결부분이 암놈-암놈 연결선 4개와 LED 1개 (두번째 수업용)</li>
 </ul></li>
 </ul>
+</div>
+</div>
         </div>
       </div>
       </article>

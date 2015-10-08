@@ -22,7 +22,7 @@ minutes: 10
     - [시간내 일을 마치기—정렬 네트워크(Sorting Network)](ct-unplugged-mapreduce.html)
     - 진흙도시 프로젝트—최소생성나무(Minimal Spanning Trees)
     - 오렌지 게임—네트워크 라우팅(Routing)과 교착상태(Deadlock)
-    - 돌명판(Tablets of Stone) — 네트워크 통신 프로토콜
+    - [돌명판(Tablets of Stone) — 네트워크 통신 프로토콜](ct-unplugged-internet.html)
 - 제3부 컴퓨터에 무엇을 수행할지 지시하기—절차의 표현
     - 보물 찾기—유한상태 오토마타
     - 진군 명령—프로그래밍 언어(Programming Languages)
