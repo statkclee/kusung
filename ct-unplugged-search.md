@@ -7,6 +7,10 @@ minutes: 10
 
 > ### 학습 목표 {.objectives}
 >
-> *  이진 검색한다.
+> *  이진 검색을 이해한다.
 
+
+
+
+<img src="fig/ct-unplugged-binary-search.png" width="77%" alt="이진 검색" />
 
