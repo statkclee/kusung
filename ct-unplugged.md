@@ -11,7 +11,7 @@ minutes: 10
 
 
 - 제1부 정보를 나타내는 원재료—데이터
-    - 점의 개수를 세다—이진수
+    - [점의 개수를 세다—이진수](ct-unplugged-data-structure.html)
     - [숫자로 색깔 표현하기—이미지 표현](ct-unplugged-images.html)
     - 다시 말할 수 있어요!—텍스트 압축
     - 카드 뒤집기 마술—오류 탐지 및 수정
@@ -33,7 +33,7 @@ minutes: 10
 - 제5부 비밀 공유와 범죄와 전쟁 —암호화(Cryptography)
     - 비밀공유 — 정보 은닉 프로토콜
     - 페루 동전 던지기 — 암호화 프로토콜
-    - 키드 크립토(Kid Krypto) — 공개키 암호화
+    - [키드 크립토(Kid Krypto) — 공개키 암호화](ct-unplugged-pub-private-key.html)
 - 제6부 사람 냄새나는 컴퓨터—컴퓨터와 상호 작용
     - [쵸코릿 공장 — 휴먼 인터페이스 설계](ct-hci.html)
     - [컴퓨터와 대화 — 튜링 테스트](ct-unplugged-turing.html)

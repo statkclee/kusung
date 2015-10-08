@@ -217,7 +217,10 @@ Log file is /home/xwmooc/.vnc/vnc:1.log</code></pre>
 <h5 id="vnc-서버-환경설정">2.2.2. VNC 서버 환경설정</h5>
 <p>VNC가 처음 설정될 때, 포트번호 5901에 기본 서버 인스턴스가 올라간다. 5901 포트는 화면출력(display) 포트로 알려있고, VNC는 <code>:1</code>로 참조하다. <code>:2</code>, <code>:3</code> 처럼 다른 화면출력 포트에 인스턴스를 다수 올릴 수 있다. VNC 서버로 작업할 때, <code>:X</code>는 <code>5900+X</code>를 참조하는 화면출력 포트라는 것을 기억한다.</p>
 <p>가장 먼저 <code>vncserver -kill :1</code> 명령어로 <code>5901</code> 포트에 실행되는 인스턴스를 정지시킨다. 새로운 VNC 시작 환경설정 파일을 작성하기 앞서 <code>mv ~/.vnc/xstartup ~/.vnc/xstartup.bak</code> 명령어로 백업한다. 그리고 나서 <code>nano ~/.vnc/xstartup</code> 나노 편집기를 열어서 다음 내용을 추가한다.</p>
-<p><strong>xfce</strong> <sub>~</sub> {.input} #!/bin/bash xrdb $HOME/.Xresources startxfce4 &amp; <sub>~</sub></p>
+<p><strong>xfce</strong></p>
+<pre class="input"><code>#!/bin/bash
+xrdb $HOME/.Xresources
+startxfce4 &amp;</code></pre>
 <p><strong>Ubuntu Trusty Tahr 14.04LTS</strong></p>
 <p>우분투 데스크톱 GUI에 대한 자세한 설정 사항은 다음 <a href="http://www.havetheknowhow.com/Configure-the-server/Install-VNC.html">웹사이트</a>를 참조한다. <code>nano ~/.vnc/xstartup</code> 편집을 다음과 같이 한다.</p>
 <pre class="input"><code>#!/bin/sh

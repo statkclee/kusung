@@ -272,6 +272,7 @@ VNC가 처음 설정될 때, 포트번호 5901에 기본 서버 인스턴스가 
 그리고 나서 `nano ~/.vnc/xstartup` 나노 편집기를 열어서 다음 내용을 추가한다.
 
 **xfce**
+
 ~~~ {.input}
 #!/bin/bash
 xrdb $HOME/.Xresources

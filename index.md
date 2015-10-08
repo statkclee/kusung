@@ -41,7 +41,7 @@ title: 구성 초등학교 소프트웨어 교육
     - 소프트웨어 교육 실습환경 직접 구축 DIY
 - WHAT: 컴퓨팅 언어와 콘텐츠
     - [언플러그드](ct-unplugged.html)
-    - [파이썬](): 준비 중
+    - [데이터 과학](ct-data-science.html): 준비 중
 - HOW: 컴퓨터 교육
     - 소프트웨어 카펜트리(Software Carpentry)
     - 공개 통계학 개론(OpenIntro Statistics)
