@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <title>xwMOOC: 구성 초등학교 소프트웨어 교육</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/swcarpentry-version-5-3-new/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/swcarpentry-version-5-3-new/css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/swcarpentry-version-5-3-new/css/swc.css" />
+    <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    <meta charset="UTF-8" />
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-59802572-9', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+  </head>
+  <body class="lesson">
+    <div class="container card">
+      <div class="banner">
+        <a href="http://xwmooc.net" title="xwMOOC">
+          <img alt="xwMOOC banner" src="img/xwMOOC.png" />
+        </a>
+      </div>
+      <article>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <h1 class="title">구성 초등학교 소프트웨어 교육</h1>
+          <h2 class="subtitle">컴퓨터 과학 언플러그드(Computer Science Unplugged) - 검색</h2>
+<div id="학습-목표" class="objectives panel panel-warning">
+<div class="panel-heading">
+<h3><span class="glyphicon glyphicon-certificate"></span>학습 목표</h3>
+</div>
+<div class="panel-body">
+<ul>
+<li>순차 검색의 장단점을 살펴본다.</li>
+<li>이진 검색을 이해한다.</li>
+<li>이진 검색 개념을 디버깅에 적용한다.</li>
+</ul>
+</div>
+</div>
+<h3 id="순차-검색과-이진-검색">1. 순차 검색과 이진 검색</h3>
+<p>데이터가 주어진 경우 원하는 정보를 찾는 것이 일반적인 검색이다. 사용자가 찾는 정보를 제공하기 위해서 검색정보를 제공하는 서비스 제공자 입장에서 <strong>순차 검색</strong>(sequential search) 알고리즘을 생각해 볼 수 있다. 데이터에서 찾고자 하는 정보를 맨 앞에서부터 끝까지 순차대로 찾아 나가는 것이다. 검색 방법 중 가장 단순하여 구현이 쉽고 정렬되지 않은 데이터에서 정보를 찾을 수 있다.</p>
+<p><strong>이진 검색</strong>은 정렬된 데이터에서 처음과 끝의 중간을 임의 값으로 선택하여, 그 값과 찾고자 하는 정보의 크고 작음을 비교하는 방식이다. 처음 선택한 중앙값이 만약 찾는 정보값보다 크면 그 값은 새로운 최고값이 되며, 반대로 작으면 새로운 최하값이 된다. 정렬된 데이터에서만 사용되는 단점이 있지만, 목표 검색 정보를 빠르게 찾을 수 있는 장점도 있다.</p>
+<p><img src="fig/ct-unplugged-binary-search.png" width="77%" alt="이진 검색" /></p>
+<h3 id="이분법을-활용한-디버깅-기법">2. 이분법을 활용한 디버깅 기법</h3>
+<p>좀더 큰 프로그램을 작성할 때, 좀더 많은 시간을 디버깅에 보내는 자신을 발견할 것이다. 좀더 많은 코드는 버그가 숨을 수 있는 좀더 많은 장소와 오류가 발생할 기회가 있다는 것을 의미한다.</p>
+<p>디버깅 시간을 줄이는 한 방법은 <strong>이분법에 따라 디버깅(debugging by bisection)</strong> 하는 것이다. 예를 들어, 프로그램에 100 줄이 있고 한번에 하나씩 확인한다면, 100 번 단계가 필요하다.</p>
+<p>대신에 문제를 반으로 나눈다. 프로그램 정확히 중간이나, 중간부분에서 점검한다. <code>print</code>문이나, 검증 효과를 갖는 상응하는 대용물을 넣고 프로그램을 실행한다.</p>
+<p>중간지점 점검 결과 잘못 되었다면 문제는 양분한 프로그램 앞부분에 틀림없이 있다. 만약 정확하다면, 문제는 프로그램 뒷부분에 있다.</p>
+<p>이와 같은 방식으로 점검하게 되면, 검토 해야하는 코드의 줄수를 절반으로 계속 줄일 수 있다. 단계가 100 번 걸리는 것에 비해 6번 단계 후에 이론적으로 1 혹은 2 줄로 문제 코드의 범위를 좁힐 수 있다.</p>
+<p>실무에서, <em>프로그램의 중간</em>이 무엇인지는 명확하지 않고, 확인하는 것도 가능하지 않다. 프로그램 코드 라인을 세서 정확히 가운데를 찾는 것은 의미가 없다. 대신에 프로그램 오류가 생길 수 있는 곳과 오류를 확인하기 쉬운 장소를 생각하세요. 점검 지점 앞뒤로 버그가 있을 곳과 동일하게 생각하는 곳을 중간지점으로 고르세요.</p>
+        </div>
+      </div>
+      </article>
+      <div class="footer">
+        <a class="label swc-blue-bg" href="http://xwmooc.net">xwMOOC</a>
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/kusung.git">한글소스</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">Contact</a>
+        <a class="label swc-blue-bg" href="http://statkclee.github.io/swcarpentry-version-5-3-new/LICENSE.html">License</a>
+      </div>
+    </div>
+    <!-- Javascript placed at the end of the document so the pages load faster -->
+    <script src="http://software-carpentry.org/v5/js/jquery-1.9.1.min.js"></script>
+    <script src="css/bootstrap/bootstrap-js/bootstrap.js"></script>
+  </body>
+</html>

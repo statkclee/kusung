@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <title>xwMOOC: 구성 초등학교 소프트웨어 교육</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/swcarpentry-version-5-3-new/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/swcarpentry-version-5-3-new/css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/swcarpentry-version-5-3-new/css/swc.css" />
+    <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    <meta charset="UTF-8" />
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-59802572-9', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+  </head>
+  <body class="lesson">
+    <div class="container card">
+      <div class="banner">
+        <a href="http://xwmooc.net" title="xwMOOC">
+          <img alt="xwMOOC banner" src="img/xwMOOC.png" />
+        </a>
+      </div>
+      <article>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <h1 class="title">구성 초등학교 소프트웨어 교육</h1>
+          <h2 class="subtitle">컴퓨터 과학 언플러그드(Computer Science Unplugged)- 인터넷</h2>
+<p>출처: 라즈베리파이 재단 공식 웹사이트 <a href="https://www.raspberrypi.org/learning/networking-lessons/">RASPBERRY PI NETWORKING</a> 기반으로 학습을 시작한다.</p>
+<div id="학습-목표" class="objectives panel panel-warning">
+<div class="panel-heading">
+<h3><span class="glyphicon glyphicon-certificate"></span>학습 목표</h3>
+</div>
+<div class="panel-body">
+<ul>
+<li>두개 이상의 라즈베리 파이를 네트워크를 통해 연결해 통신하는 방법</li>
+<li>한 라즈베리 파이 프로그램을 작성해서 또 다른 라즈베리 파이로 메시지를 전송하는 방법</li>
+<li>네트워크를 통해서 하드웨어를 제어하는 방법</li>
+<li>네트워크 설정하고 서버 구축하는 방법</li>
+<li>기초 네트워킹 개념
+<ul>
+<li>IP 주소 (IP address)</li>
+<li>서버와 클라이언트 (Servers and Clients)</li>
+<li>동적 호스트 구성 프로토콜(Dynamic Host Configuration Protocol, DHCP)</li>
+<li>도메인 네임 시스템 (Domain Name System, DNS)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<h3 id="라즈베리-파이를-통한-네트워킹-이해-및-실습"><a href="http://statkclee.github.io/python-networking/">라즈베리 파이를 통한 네트워킹 이해 및 실습</a></h3>
+<ol style="list-style-type: decimal">
+<li><a href="http://statkclee.github.io/python-networking/01-sending-messages.html">네트워크를 통해 메시지 전송</a>
+<ul>
+<li>사전에 동영상을 학습하고 수업에 참석한다.</li>
+</ul></li>
+<li><a href="http://statkclee.github.io/python-networking/02-controlling-hardware.html">네트워크로 하드웨어 제어</a></li>
+<li><a href="http://statkclee.github.io/python-networking/03-dhcp.html">동적 호스트 구성 프로토콜</a></li>
+<li><a href="http://statkclee.github.io/python-networking/04-dns.html">도메인 네임 시스템</a></li>
+</ol>
+<div id="필요한-준비물" class="callout panel panel-info">
+<div class="panel-heading">
+<h3><span class="glyphicon glyphicon-pushpin"></span>필요한 준비물</h3>
+</div>
+<div class="panel-body">
+<p>라즈베리 파이를 가진 학생 각각 혹은 짝을 지어 수행하는 것을 권장한다. 각 라즈베리 파이가 첫번째 학습에서 다른 학생 라즈베리 파이에 &gt; 연결되어야 되어서 짝수 라즈베리 파이가 필요하다. 각 학생 혹은 짝을 이룬 학생은 다음 &gt; 기구물에 접근할 수 있어야 한다.</p>
+<ul>
+<li>다음 환경 설정이 된 라즈베리 파이
+<ul>
+<li>라즈비언 운영체제가 탑재된 최신 NOOBS SD 카드</li>
+<li><code>network.py</code>와 <code>thing-client.py</code> 파이썬 파일을 SD 카드에 &gt; 복사한다.</li>
+<li>키보드, 마우스, 모니터(혹은 TV)</li>
+<li>두 라즈베리 파이를 연결하는 네트워크 케이블</li>
+<li>연결부분이 암놈-암놈 연결선 4개와 LED 1개 (두번째 수업용)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+        </div>
+      </div>
+      </article>
+      <div class="footer">
+        <a class="label swc-blue-bg" href="http://xwmooc.net">xwMOOC</a>
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/kusung.git">한글소스</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">Contact</a>
+        <a class="label swc-blue-bg" href="http://statkclee.github.io/swcarpentry-version-5-3-new/LICENSE.html">License</a>
+      </div>
+    </div>
+    <!-- Javascript placed at the end of the document so the pages load faster -->
+    <script src="http://software-carpentry.org/v5/js/jquery-1.9.1.min.js"></script>
+    <script src="css/bootstrap/bootstrap-js/bootstrap.js"></script>
+  </body>
+</html>

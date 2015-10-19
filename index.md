@@ -11,7 +11,7 @@ title: 구성 초등학교 소프트웨어 교육
     - 2015년 10월 21일 수요일 
     - 2015년 10월 28일 수요일
 - 장소
-    - 용인 둔전초등학교: <a href="http://maps.google.com/maps?q=37.2688169,127.2223851">구글지도</a>.
+    - 용인 구성초등학교: <a href="http://maps.google.com/maps?q=37.2952648,127.114825">구글지도</a>.
 
 > ### 사전 학습 {.getready}
 >
@@ -42,7 +42,7 @@ title: 구성 초등학교 소프트웨어 교육
 - WHAT: 컴퓨팅 언어와 콘텐츠
     - [언플러그드](ct-unplugged.html)
     - [비즈니스를 위한 오픈 소스 소프트웨어](http://statkclee.github.io/open-source-for-business/)
-    - 파이썬
+    - [데이터 과학](ct-data-science.html): 준비 중
 - HOW: 컴퓨터 교육
     - 소프트웨어 카펜트리(Software Carpentry)
     - 공개 통계학 개론(OpenIntro Statistics)
