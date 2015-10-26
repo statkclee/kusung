@@ -32,7 +32,7 @@ title: 구성 초등학교 소프트웨어 교육
 - **[로봇과 일자리 경쟁](https://www.youtube.com/watch?v=7c_XO3Ouzts)**
     - [Oxford Martin School study shows nearly half of US jobs could be at risk of computerisation](http://www.futuretech.ox.ac.uk/news-release-oxford-martin-school-study-shows-nearly-half-us-jobs-could-be-risk-computerisation)
 
-### 학습 내용
+### 학습 내용 (이론)
 
 - WHY: 컴퓨터 교육
     - [네번째 패러다임](ct-paradigm.html)
@@ -46,6 +46,37 @@ title: 구성 초등학교 소프트웨어 교육
 - HOW: 컴퓨터 교육
     - 소프트웨어 카펜트리(Software Carpentry)
     - 공개 통계학 개론(OpenIntro Statistics)
+
+### 학습 내용 (실습)
+
+- 러플(Rur-Ple)
+    - 프로그램 [다운로드](http://sourceforge.net/projects/rur-ple/)
+    - [한글 러플(Rur-ple) 매뉴얼](http://rur-ple.xwmooc.org/)
+    - [Reeborg](http://reeborg.ca/index_en.html)
+    - [플레이봇(Playbot)](http://playbot.spaceii.com/)
+    - [소프트웨어 카펜트리 파이썬 거북이(영문)](http://swcarpentry.github.io/python-novice-turtles/)    
+    - [소프트웨어 카펜트리 파이썬 거북이(국문)](http://swcarpentry.github.io/python-novice-turtles/index-kr.html) 
+
+> #### 러플 예약어 {.callout}    
+> - 행동 : move() turn_left() pick_beeper() put_beeper() turn_off()
+> - 테스트 : front_is_clear() left_is_clear() right_is_clear() facing_north() carries_beepers() on_beeper()
+> - 기타 특수 : repeat(함수,횟수)   
+
+> #### 파이썬 예약어 31개 {.callout}    
+> 
+> and del from not while as elif global or with assert else if pass yield break except import print class exec in raise continue finally is return def for lambda try
+
+- 컴퓨터 소프트웨어 교육환경
+    - [가상 상자(VirtualBox) 다운로드](https://www.virtualbox.org/)
+    - [부랑자(Vagrant) 다운로드](https://www.vagrantup.com/downloads.html)
+        - [부랑자 이미지 파일](http://www.vagrantbox.es/)
+    - [소프트웨어 카펜트리 교육 툴체인](http://statkclee.github.io/raspberry-pi/raspberry-pi-swcarpentry.html)
+        - [SWC 소프트웨어 교육 이미지](https://docs.google.com/uc?id=0B4Kr6DYkzkQtd05FekRId05DLXM&export=download)
+        - [소프트웨어 교육 콘텐츠 및 코드](https://github.com/statkclee/2015-07-06-scipy)
+
+- IoT 사물인터넷 교육
+    - [$100 달러 컴퓨터 경험](http://computer.xwmooc.org)
+    - [라즈베리 파이기반 컴퓨터 콘텐츠](http://statkclee.github.io/raspberry-pi/)
 
 ### 언론 기사 
 
